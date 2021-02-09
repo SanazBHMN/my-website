@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
-    <header>
+    <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Sanaz Bahmani | About Me</title>
-    </header>
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/about-style.css">
+    </head>
     <body>
         <section id="sidebar">
             <div class="profile-pic small">
@@ -24,8 +26,8 @@
                 <p>&copy;2021 Sanaz Bahmani</p>
             </footer>
         </section>
-        <section id="content">
-            <div class="gist">
+        <section id="container">
+            <div class="box gist">
                 <h1>I'm Sanaz Bahmani</h1>
                 <p>I attend Azad University where I'm majoring in Software Engineering. 
                     Having been accepted in university, I started my career by doing an internship 
@@ -33,14 +35,14 @@
                     I'm an easy-going person, besides I work quite well with everyone. 
                     I enjoy being in company of others and I like to always challenge myself to improve at everything I do.
                 </p>
-                <div>
-                    <form>
-                        <button type="button" class="btn">View Portfolio</button>
-                        <button type="button" class="btn">Contact Me</button>
-                    </form>
-                </div>
+                <!-- <div> -->
+                <form>
+                    <button type="button" class="btn">View Portfolio</button>
+                    <button type="button" class="btn">Contact Me</button>
+                </form>
+                <!-- </div> -->
             </div>
-            <div class="about">
+            <div class="box">
                 <h2>About Me</h2>
                 <div class="profile-pic">
                     <img src="https://media-exp1.licdn.com/dms/image/C5603AQGfP1aSUYU8Bg/profile-displayphoto-shrink_200_200/0/1522736424111?e=1618444800&v=beta&t=mURceTUNnAeVCne6llT341OQQN85fycRv4EdI1NyFFo" alt="Me">
@@ -72,8 +74,14 @@
                         <span>sanazbahmani35@gmail.com</span>
                     </p>
                 </div>
+                <div>
+                    <form>
+                        <button class="btn">Download CV</button>
+                        <button class="btn">Contact Me</button>
+                    </form>
+                </div>
             </div>
-            <div class="skills">
+            <div class="box">
                 <h2>My Skills</h2>
                 <p>As I mentioned before, I always follow latest technologies and best practices in my profession. 
                     Here is a list of technologies that I have used in most of my applications:
